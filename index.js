@@ -1,9 +1,17 @@
-// Your web app's Firebase configuration
 var firebaseConfig = {
-    //firebase config stuff
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+    apiKey: "AIzaSyAaOe5lV4AFLSSyqGleUaaB9Xi7wPUCqRQ",
+    authDomain: "axa-szkolenia.firebaseapp.com",
+    databaseURL: "https://axa-szkolenia.firebaseio.com",
+    projectId: "axa-szkolenia",
+    storageBucket: "axa-szkolenia.appspot.com",
+    messagingSenderId: "548908670504",
+    appId: "1:548908670504:web:a3396a5c898430b25b1f1d",
+    measurementId: "G-NGMEDJVBSW"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  firebase.auth();
       
         const auth = firebase.auth();
         
