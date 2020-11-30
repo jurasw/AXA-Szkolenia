@@ -1,4 +1,9 @@
-var firebaseConfig = {
+
+
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
     apiKey: "AIzaSyAaOe5lV4AFLSSyqGleUaaB9Xi7wPUCqRQ",
     authDomain: "axa-szkolenia.firebaseapp.com",
     databaseURL: "https://axa-szkolenia.firebaseio.com",
@@ -11,9 +16,8 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-  firebase.auth();
-      
-        const auth = firebase.auth();
+  const auth = firebase.auth();
+
         
         
         function signUp(){
